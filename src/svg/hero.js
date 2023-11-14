@@ -1,6 +1,6 @@
 export default function Hero(props) {
   return (
-    <svg width="1204" height="304" viewBox="0 0 1204 304" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg width="1204" height="304" viewBox="0 0 1204 304" fill="none" xmlns="http://www.w3.org/2000/svg" alt="a creative technologist studio" {...props}>
       <rect x="102" y="2" width="100" height="100" stroke="black" strokeWidth="3"/>
       <rect x="502" y="2" width="100" height="100" stroke="black" strokeWidth="3"/>
       <path d="M552 27L573.651 78H530.349L552 27Z" fill="black"/>

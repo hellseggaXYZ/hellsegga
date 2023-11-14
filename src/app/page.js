@@ -1,7 +1,7 @@
-// import Logo from '@/svg/logo'
-// import Hero from '@/svg/hero'
-import LogoBorderless from '@/svg/logoBorderless'
-import Hero from '@/components/hero/hero'
+import Logo from '@/svg/logo'
+import Hero from '@/svg/hero'
+// import LogoBorderless from '@/svg/logoBorderless'
+// import Hero from '@/components/hero/hero'
 
 import styles from './page.module.css'
 
@@ -13,7 +13,7 @@ export default function Home() {
         <Hero />
       </div>
       <div className={styles.logo}>
-        <LogoBorderless />
+        <Logo />
       </div>
     </main>
   )

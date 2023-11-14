@@ -1,6 +1,6 @@
 export default function Logo(props) {
   return (
-    <svg width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <svg width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg" alt="hellsegga" {...props}>
       <rect x="27" y="27" width="4.10509" height="23.8095" fill="black"/>
       <rect x="27" y="46.906" width="23.8095" height="3.9032" fill="black"/>
       <rect x="27" y="27" width="17.2414" height="3.9032" fill="black"/>
