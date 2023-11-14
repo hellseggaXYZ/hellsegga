@@ -1,6 +1,44 @@
-.title {
+.heroContainer {
+  --font-size: var(--box-size);
+  font-size: var(--font-size);
+  letter-spacing: 0px;
+  color: black;
   text-transform: uppercase;
-  font-size: 24px;
-  letter-spacing: -0.1em;
-  color: red;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: calc(var(--font-size) + 1.5px + 1.5px / 2);
+  white-space: nowrap;
+}
+
+.heroContainer .top {
+  border-top: var(--full-yuan-border);
+}
+
+.heroContainer .bottom {
+  border-bottom: var(--full-yuan-border);
+}
+
+.heroContainer .left {
+  border-left: var(--full-yuan-border);
+}
+
+.heroContainer .right {
+  border-right: var(--full-yuan-border);
+}
+
+.heroContainer .notTop {
+  border-top: var(--half-yuan-border);
+}
+
+.heroContainer .notBottom {
+  border-bottom: var(--half-yuan-border);
+}
+
+.heroContainer .notLeft {
+  border-left: var(--half-yuan-border);
+}
+
+.heroContainer .notRight {
+  border-right: var(--half-yuan-border);
 }

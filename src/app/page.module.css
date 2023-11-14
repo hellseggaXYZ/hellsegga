@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 6rem;
+  padding: calc(14vw - 19.5px);
   min-height: 100vh;
   gap: 10em;
 }
@@ -13,20 +12,16 @@
   width: 100%;
 }
 
-.hero svg {
-  width: 100%;
-  height: auto;
-}
-
 .logo svg {
-  width: calc(100% / 12);
+  width: var(--box-size);
   height: auto;
+  padding: calc(var(--box-size) / 4);
+  border: var(--full-yuan-border)
 }
 
 /* Mobile */
 @media (max-width: 700px) {
   .main {
-    padding: 1rem;
     gap: 5em;
   }
 }
