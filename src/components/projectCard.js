@@ -16,12 +16,16 @@ export default function ProjectCard({ project }) {
             <h2>{name}</h2>
             <h3>{date}</h3>
           </div>
-          <div className={styles.description}>
-            <p>{description}</p>
-          </div>
-          <div className={styles.note}>
-            <p>{note}</p>
-          </div>
+          {description && 
+            <div className={styles.description}>
+              <p>{description}</p>
+            </div>
+          }
+          {note && 
+            <div className={styles.note}>
+              <p>{note}</p>
+            </div>
+          }
         </div>
         <div className={styles.footer}>
           <div className={styles.collaborators}>
@@ -32,12 +36,16 @@ export default function ProjectCard({ project }) {
             ))}
           </div>
           <div className={styles.links}>
-            {github_url && <a href={github_url}>
-              <GithubIcon />
-            </a>}
-            {external_url && <a href={external_url}>
-              <BrowserIcon />
-            </a>}
+            {github_url && 
+              <a href={github_url}>
+                <GithubIcon />
+              </a>
+            }
+            {external_url && 
+              <a href={external_url}>
+                <BrowserIcon />
+              </a>
+            }
           </div>
         </div>
       </div>

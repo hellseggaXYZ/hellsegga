@@ -1,0 +1,24 @@
+.main {
+  position: relative;
+  padding: 3em;
+  padding-top: 6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  width: 36px;
+}
