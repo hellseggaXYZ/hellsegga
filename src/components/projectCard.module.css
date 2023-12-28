@@ -6,13 +6,14 @@
   max-width: 1000px;
   width: 100%;
   
-  padding: 40px;
-  gap: 40px;
+  padding: 60px 40px;
+  gap: 6em;
   letter-spacing: -0.02em;
 }
 
 .image {
   width: fit-content;
+  min-width: 120px;
   padding: 10px;
 }
 
