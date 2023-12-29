@@ -19,7 +19,11 @@ export const projects = [
       {
         name: 'PEIYUAN.L',
         url: 'https://www.liaopeiyuan.com/',
-      }
+      },
+      {
+        name: 'MARCO.W',
+        url: 'https://www.marcowang.xyz/',
+      },
     ]
   },
   {
@@ -99,10 +103,6 @@ export const projects = [
       {
         name: 'MARCO.W',
         url: 'https://www.marcowang.xyz/',
-      },
-      {
-        name: 'SHAOBO.Z',
-        url: 'https://boboland.xyz',
       },
     ]
   }

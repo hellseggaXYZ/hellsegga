@@ -1,0 +1,9 @@
+.main {
+  position: relative;
+  padding: 3em;
+  padding-top: 6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
