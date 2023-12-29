@@ -7,9 +7,6 @@ import Link from 'next/link'
 export default function Page() {
   return (
     <main className={styles.main}>
-      <Link href={'/'} className={styles.logo}>
-        <LogoBorderless />
-      </Link>
       <div className={styles.projectsContainer}>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} project={project} />

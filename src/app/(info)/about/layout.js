@@ -1,10 +1,11 @@
-import Navbar from "@/components/Navbar"
+export const metadata = {
+  title: 'Hellsegga - About',
+}
 
 export default function Layout({ children }) {
   return (
-    <div>
-      <Navbar />
+    <>
       {children}
-    </div>
+    </>
   )
 }

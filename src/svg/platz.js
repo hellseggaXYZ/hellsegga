@@ -84,7 +84,7 @@ export default function PlatzLogo(props) {
 <circle cx="35.0001" cy="42.9244" r="3.30189" fill="#D6D6D6"/>
 <circle cx="42.9244" cy="42.9244" r="3.30189" fill="#D6D6D6"/>
 <circle cx="50.8493" cy="34.9999" r="3.30189" fill="#D6D6D6"/>
-<rect width="70" height="70" rx="3.30189" fill="#151515" fill-opacity="0.5"/>
+<rect width="70" height="70" rx="3.30189" fill="#151515" fillOpacity="0.5"/>
 </svg>
 
   )

@@ -2,8 +2,6 @@ import styles from './projectCard.module.css'
 import GithubIcon from '@/svg/github';
 import BrowserIcon from '@/svg/browser';
 
-// todo: make sure all links open to new tab
-
 export default function ProjectCard({ project }) {
   const { name, date, description, note, external_url, github_url, image, collaborators } = project;
 
