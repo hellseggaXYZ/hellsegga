@@ -8,6 +8,7 @@ export default function HistOfComp() {
       width={950}
       height={650}
       layout="responsive"
+      style={{ borderRadius: '50px', backgroundColor: 'black'}}
     />
   )
 }

@@ -1,8 +1,8 @@
 'use client'
 
-import styles from './DesginCard.module.css'
+import styles from './DesignCard.module.css'
 
-export default function DesginCard({ design }) {
+export default function DesignCard({ design }) {
 
   const { name, category, media, collaborators } = design;
 
