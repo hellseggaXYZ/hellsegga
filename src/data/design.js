@@ -1,8 +1,8 @@
 import HistOfComp from "@/components/media/HistOfComp"
 import LlmIde from "@/components/media/LlmIde"
-import Igloo from "@/components/media/igloo"
+import Igloo from "@/components/media/Igloo"
 import BasicComponent from "@/components/media/BasicComponent"
-import Skip from "@/components/media/skip"
+import Skip from "@/components/media/Skip"
 
 export const designs = [
   {
