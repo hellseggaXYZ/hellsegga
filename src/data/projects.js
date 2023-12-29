@@ -53,6 +53,23 @@ export const projects = [
     ]
   },
   {
+    name: 'TOMO',
+    date: 'Spring, 2023',
+    description: 'TOMO is a collection of AI powered toys created with the aim of researching how AI can help build interactions that inspire curiosity, creativity, and compassion. This site is for testing the software, which will eventually live inside physical toys and exhibited at an in-person exhibition. Thank you for trying it out and please give some feedback!',
+    image: (<TomoLogo />),
+    external_url: 'https://tomo-git-mw-new-controls-yulilith.vercel.app/',
+    collaborators: [
+      {
+        name: 'LILITH.Y',
+        url: 'https://lilithyu.com/',
+      },
+      {
+        name: 'MARCO.W',
+        url: 'https://www.marcowang.xyz/',
+      },
+    ]
+  },
+  {
     name: 'linear a',
     date: 'Fall, 2022',
     description: 'Experimental attempt at running ml algorithm in zero-knowledge proofs.',
@@ -89,21 +106,4 @@ export const projects = [
       },
     ]
   },
-  {
-    name: 'TOMO',
-    date: 'Spring, 2023',
-    description: 'TOMO is a collection of AI powered toys created with the aim of researching how AI can help build interactions that inspire curiosity, creativity, and compassion. This site is for testing the software, which will eventually live inside physical toys and exhibited at an in-person exhibition. Thank you for trying it out and please give some feedback!',
-    image: (<TomoLogo />),
-    external_url: 'https://tomo-git-mw-new-controls-yulilith.vercel.app/',
-    collaborators: [
-      {
-        name: 'LILITH.Y',
-        url: 'https://lilithyu.com/',
-      },
-      {
-        name: 'MARCO.W',
-        url: 'https://www.marcowang.xyz/',
-      },
-    ]
-  }
 ]
