@@ -9,7 +9,7 @@ export const projects = [
     name: 'LOUR',
     date: 'Summer, 2023',
     description: 'Color palette generator based on historic art movements, powered by a generative model trained on the artbench dataset.',
-    external_url: 'https://lour.ink',
+    url: 'https://lour.ink',
     image: (<LourLogo />),
     collaborators: [
       {
@@ -30,8 +30,7 @@ export const projects = [
     name: 'Platz',
     date: 'Spring, 2023',
     description: 'An open source infinite canvas based website template.',
-    external_url: 'https://www.platz.ooo/',
-    github_url: 'https://github.com/szgbo/platz',
+    url: 'https://www.platz.ooo/',
     image: (<PlatzLogo />),
     collaborators: [
       {
@@ -57,7 +56,7 @@ export const projects = [
     date: 'Spring, 2023',
     description: 'TOMO is a collection of AI powered toys created with the aim of researching how AI can help build interactions that inspire curiosity, creativity, and compassion. This site is for testing the software, which will eventually live inside physical toys and exhibited at an in-person exhibition. Thank you for trying it out and please give some feedback!',
     image: (<TomoLogo />),
-    external_url: 'https://tomo-git-mw-new-controls-yulilith.vercel.app/',
+    url: 'https://tomo-git-mw-new-controls-yulilith.vercel.app/',
     collaborators: [
       {
         name: 'LILITH.Y',
@@ -74,6 +73,7 @@ export const projects = [
     date: 'Fall, 2022',
     description: 'Experimental attempt at running ml algorithm in zero-knowledge proofs.',
     image: (<LinearaLogo />),
+    url: 'https://zk-ml.xyz/',
     collaborators: [
       {
         name: 'PEIYUAN.L',
@@ -90,6 +90,7 @@ export const projects = [
     date: 'Summer, 2022',
     description: 'A collection of AI generated NFTs that only shows its original content to those that have access to its secret. Only the owner have access to the original image off-chain, with only a thumbnail version available on-chain.',
     image: (<Zero55Logo />),
+    url: 'https://youtu.be/1_QF4B1ITV4',
     note: 'This project is deprecated because the metamask account that was used to deploy the contract was compromised.',
     collaborators: [
       {

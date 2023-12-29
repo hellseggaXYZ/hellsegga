@@ -5,10 +5,20 @@
   align-items: flex-start;
   max-width: 1000px;
   width: 100%;
-  
-  padding: 60px 40px;
+  cursor: pointer;
+  padding: 40px 40px;
   gap: 6em;
   letter-spacing: -0.02em;
+  border-radius: 55px;
+  transition: all 0.1s ease-in-out;
+}
+
+.card:hover {
+  background-color: #F0F0F0;
+}
+
+.card:active {
+  background-color: #F9F9F9;
 }
 
 .image {
@@ -52,7 +62,7 @@
   font-style: italic;
   font-weight: 300;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .description {
@@ -84,7 +94,8 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 10px;
+  font-size: 13px;
+  gap: 23px;
   color: #999;
 }
 

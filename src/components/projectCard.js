@@ -1,12 +1,19 @@
+'use client'
+
 import styles from './projectCard.module.css'
-import GithubIcon from '@/svg/github';
-import BrowserIcon from '@/svg/browser';
+import Link from 'next/link'
 
 export default function ProjectCard({ project }) {
-  const { name, date, description, note, external_url, github_url, image, collaborators } = project;
+  const { name, date, description, note, url, image, collaborators } = project;
+
+  const handleOnClick = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }
 
   return (
-    <div className={styles.card}>
+    <div className={styles.card} onClick={handleOnClick}>
       <div className={styles.image}>
         {image}
       </div>
@@ -34,18 +41,6 @@ export default function ProjectCard({ project }) {
                 {collaborator.name}
               </a>
             ))}
-          </div>
-          <div className={styles.links}>
-            {github_url && 
-              <a href={github_url} target="_blank" rel="noopener noreferrer">
-                <GithubIcon />
-              </a>
-            }
-            {external_url && 
-              <a href={external_url} target="_blank" rel="noopener noreferrer">
-                <BrowserIcon />
-              </a>
-            }
           </div>
         </div>
       </div>
