@@ -39,12 +39,12 @@ export default function ProjectCard({ project }) {
           </div>
           <div className={styles.links}>
             {github_url && 
-              <a href={github_url}>
+              <a href={github_url} target="_blank" rel="noopener noreferrer">
                 <GithubIcon />
               </a>
             }
             {external_url && 
-              <a href={external_url}>
+              <a href={external_url} target="_blank" rel="noopener noreferrer">
                 <BrowserIcon />
               </a>
             }
