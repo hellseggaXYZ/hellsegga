@@ -1,8 +1,10 @@
 .main {
-  position: relative;
-  padding: 3em;
-  padding-top: 6em;
+  width: 100%;
+}
+
+.designsContainer {
   display: flex;
+  margin-top: 200px;
   flex-direction: row;
   justify-content: center;
   align-items: center;

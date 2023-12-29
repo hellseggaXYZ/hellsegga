@@ -1,7 +1,6 @@
 'use client'
 
 import styles from './projectCard.module.css'
-import Link from 'next/link'
 
 export default function ProjectCard({ project }) {
   const { name, date, description, note, url, image, collaborators } = project;
@@ -37,7 +36,7 @@ export default function ProjectCard({ project }) {
         <div className={styles.footer}>
           <div className={styles.collaborators}>
             {collaborators.map((collaborator, index) => (
-              <a key={`collaborator-${index}`} href={collaborator.url} target="_blank" rel="noopener noreferrer">
+              <a key={`collaborator-${index}`} href={collaborator.url} className={styles.collaborator} target="_blank" rel="noopener noreferrer">
                 {collaborator.name}
               </a>
             ))}

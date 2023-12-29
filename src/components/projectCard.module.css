@@ -99,6 +99,10 @@
   color: #999;
 }
 
+.footer .collaborator:hover {
+  color: #333;
+}
+
 .footer .links {
   display: flex;
   flex-direction: row;
