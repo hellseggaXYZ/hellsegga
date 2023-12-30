@@ -7,7 +7,11 @@ export default function BasicComponent() {
       alt="Hist of Comp"
       width={950}
       height={650}
-      style={{ borderRadius: '50px' }}
+      style={{
+        width: '100%',
+        height: 'auto',
+        maxWidth: '950px',
+      }}
     />
   )
 }

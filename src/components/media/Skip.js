@@ -7,7 +7,11 @@ export default function Skip() {
       alt="Hist of Comp"
       width={950}
       height={650}
-      style={{ borderRadius: '50px', backgroundColor: '#FAFCFF'}}
+      style={{
+        width: '100%',
+        height: 'auto',
+        maxWidth: '950px',
+      }}
     />
   )
 }

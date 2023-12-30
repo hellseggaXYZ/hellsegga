@@ -2,6 +2,7 @@
   max-width: 950px;
   width: 100%;
   padding: 0 3rem;
+  position: relative;
 }
 
 .media {

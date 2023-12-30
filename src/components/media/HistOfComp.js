@@ -5,9 +5,14 @@ export default function HistOfComp() {
     <Image
       src="/histOfComp.png"
       alt="Hist of Comp"
+      priority
       width={950}
       height={650}
-      style={{ borderRadius: '50px', backgroundColor: 'black'}}
+      style={{
+        width: '100%',
+        height: 'auto',
+        maxWidth: '950px',
+      }}
     />
   )
 }

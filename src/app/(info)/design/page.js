@@ -7,7 +7,7 @@ export default function Page() {
     <main className={styles.main}>
       <div className={styles.designsContainer}>
         {designs.map((design, index) => (
-          <DesginCard key={`design-${index}`} design={design} />
+          <DesginCard key={`design-${index}-${design.name}`} design={design} />
         ))}
       </div>
     </main>
