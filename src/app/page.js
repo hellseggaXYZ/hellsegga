@@ -11,12 +11,12 @@ export default function Home() {
       <div className={styles.hero}>
         <Hero />
       </div>
-      {/* <Link href={'/projects'} className={styles.logo}>
+      <Link href={'/projects'} className={styles.logo}>
         <Logo />
-      </Link> */}
-      <div className={styles.logo}>
+      </Link>
+      {/* <div className={styles.logo}>
         <Logo />
-      </div>
+      </div> */}
     </main>
   )
 }
