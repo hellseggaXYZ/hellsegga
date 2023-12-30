@@ -1,0 +1,8 @@
+.collaborator {
+  cursor: pointer;
+  color: #999;
+}
+
+.collaborator:hover {
+  color: #333;
+}

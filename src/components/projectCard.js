@@ -1,18 +1,12 @@
-'use client'
-
 import styles from './projectCard.module.css'
+import Link from 'next/link';
+import CollaboratorButton from './collaboratorButton';
 
 export default function ProjectCard({ project }) {
   const { name, date, description, note, url, image, collaborators } = project;
 
-  const handleOnClick = (e) => {
-    e.preventDefault();
-    e.stopPropagation();
-    window.open(url, '_blank', 'noopener,noreferrer');
-  }
-
   return (
-    <div className={styles.card} onClick={handleOnClick}>
+    <Link href={url} className={styles.card}>
       <div className={styles.image}>
         {image}
       </div>
@@ -36,14 +30,15 @@ export default function ProjectCard({ project }) {
         <div className={styles.footer}>
           <div className={styles.collaborators}>
             {collaborators.map((collaborator, index) => (
-              <a key={`collaborator-${index}`} href={collaborator.url} className={styles.collaborator} target="_blank" rel="noopener noreferrer">
-                {collaborator.name}
-              </a>
+              <CollaboratorButton 
+                key={`collaborator-${name}-${index}`} 
+                collaborator={collaborator} 
+              />
             ))}
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   )
 
 }

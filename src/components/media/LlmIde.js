@@ -29,7 +29,7 @@ export default function LlmIde() {
           maxWidth: '100%',
           maxHeight: '100%'
         }}
-        src="/llm.mov"
+        src="/llm.mp4"
         alt="Hist of Comp"
       />
     </div>

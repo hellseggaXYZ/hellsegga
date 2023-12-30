@@ -1,6 +1,6 @@
-'use client'
 import React from 'react'
 import styles from './DesignCard.module.css'
+import CollaboratorButton from './collaboratorButton';
 
 export default function DesignCard({ design }) {
 
@@ -19,23 +19,13 @@ export default function DesignCard({ design }) {
         </div>
         <div className={styles.collaborators}>
           {collaborators.map((collaborator, index) => (
-            <React.Fragment key={`d-collaborator-${name}-${index}`}>
-              { collaborator.url ?
-                (
-                  <a  href={collaborator.url} className={styles.collaborator} target="_blank" rel="noopener noreferrer">
-                    {collaborator.name}
-                  </a>
-                ) : (
-                  <div>
-                    {collaborator.name}
-                  </div>
-                )
-              }
-            </React.Fragment>
+            <CollaboratorButton 
+              key={`collaborator-${name}-${index}`} 
+              collaborator={collaborator} 
+            />
           ))}
         </div>
       </div>
     </div>
   )
-
 }
