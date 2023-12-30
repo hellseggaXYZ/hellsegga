@@ -1,6 +1,6 @@
 import styles from './projectCard.module.css'
 import Link from 'next/link';
-import CollaboratorButton from './collaboratorButton';
+import CollaboratorButton from './CollaboratorButton';
 
 export default function ProjectCard({ project }) {
   const { name, date, description, note, url, image, collaborators } = project;
