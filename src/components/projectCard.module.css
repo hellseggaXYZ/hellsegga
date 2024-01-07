@@ -14,11 +14,11 @@
 }
 
 .card:hover {
-  background-color: #F0F0F0;
+  background-color: #F9F9F9;
 }
 
 .card:active {
-  background-color: #F9F9F9;
+  background-color: #FcFcFc;
 }
 
 .image {
@@ -62,18 +62,19 @@
   font-style: italic;
   font-weight: 300;
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .description {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 400;
-  margin-top: 20px;
+  margin-top: 27px;
   color: #000;
+  max-width: 500px;
 }
 
 .note {
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 300;
   margin-top: 20px;
   font-style: italic;
