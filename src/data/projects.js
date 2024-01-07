@@ -46,7 +46,7 @@ export const projects = [
         url: 'https://www.linkedin.com/in/marco-yu-ba21661ab/',
       },
       {
-        name: 'DALU.LIU',
+        name: 'DALU.L',
         url: 'https://www.daluliu.com/',
       }
     ]
