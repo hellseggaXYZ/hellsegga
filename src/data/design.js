@@ -10,6 +10,7 @@ export const designs = [
     category: 'animation',
     media: (<HistOfComp />),
     color: '#000000',
+    url: 'https://www.figma.com/community/file/1318302567221633887/history-of-computing',
     collaborators: [
       {
         name: 'SHAOBO.Z',
@@ -26,6 +27,7 @@ export const designs = [
     category: 'animated components',
     media: (<LlmIde />),
     color: '#000000',
+    url: 'https://www.figma.com/community/file/1311725605282104466/code-animations-for-a-llm-powered-ide',
     collaborators: [
       {
         name: 'SHAOBO.Z',
@@ -41,6 +43,7 @@ export const designs = [
     category: 'component library',
     media: (<BasicComponent />),
     color: '#999999',
+    url: 'https://www.figma.com/community/file/1311566269817082686/components-a-basic-component-library-for-your-software',
     collaborators: [
       {
         name: 'SHAOBO.Z',
@@ -56,6 +59,7 @@ export const designs = [
     category: 'user interface',
     media: (<Igloo />),
     color: '#999999',
+    url: 'https://www.figma.com/community/file/1303871759301894413/igloo-an-organic-non-overwhelming-interface-for-your-relationships',
     collaborators: [
       {
         name: 'SHAOBO.Z',
@@ -71,6 +75,7 @@ export const designs = [
     category: 'user interface',
     media: (<Skip />),
     color: '#999999',
+    url: 'https://www.figma.com/community/file/1298100984070394658/skip-an-ai-powered-collaborative-workspace',
     collaborators: [
       {
         name: 'SHAOBO.Z',
