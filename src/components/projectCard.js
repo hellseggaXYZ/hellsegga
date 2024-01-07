@@ -6,7 +6,7 @@ export default function ProjectCard({ project }) {
   const { name, date, description, note, url, image, collaborators } = project;
 
   return (
-    <Link href={url} className={styles.card}>
+    <Link href={url} className={styles.card} target='_blank' rel='noopener noreferrer'>
       <div className={styles.image}>
         {image}
       </div>

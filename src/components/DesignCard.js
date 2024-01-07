@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './DesignCard.module.css'
 import CollaboratorButton from './CollaboratorButton';
 
+
 export default function DesignCard({ design }) {
 
   const { name, category, media, collaborators, color } = design;
