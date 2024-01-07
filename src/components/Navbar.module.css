@@ -19,13 +19,15 @@
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 300;
+  color: #999;
   min-width: 80px;
 }
 
 .text:hover {
-  font-weight: 400;
+  color: #000;
 }
 
 .text.active {
-  font-weight: 400;
+  color: #000;
+
 }
