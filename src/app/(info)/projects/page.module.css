@@ -26,10 +26,13 @@
 
 @media screen and (max-width: 768px) {
   .main {
-    padding: 1em;
+    padding: 0em 20px;
+    padding-top: 2em;
   }
 
   .projectsContainer {
     margin: 0px 0px 100px 0;
+    gap: 30px;
+
   }
 }

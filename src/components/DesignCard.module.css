@@ -53,7 +53,7 @@
 
 @media screen and (max-width: 768px) {
   .card {
-    padding: 0 1.5rem;
+    padding: 0 30px;
   }
 
   .designInfo {
@@ -65,7 +65,7 @@
   }
 
   .text h2 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .collaborators {
