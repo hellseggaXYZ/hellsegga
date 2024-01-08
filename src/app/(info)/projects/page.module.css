@@ -23,3 +23,13 @@
   left: 1em;
   width: 36px;
 }
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 1em;
+  }
+
+  .projectsContainer {
+    margin: 0px 0px 100px 0;
+  }
+}

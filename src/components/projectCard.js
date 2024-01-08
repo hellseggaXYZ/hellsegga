@@ -18,12 +18,12 @@ export default function ProjectCard({ project }) {
           </div>
           {description && 
             <div className={styles.description}>
-              <p>{description}</p>
+              <div>{description}</div>
             </div>
           }
           {note && 
             <div className={styles.note}>
-              <p>{note}</p>
+              <div>{note}</div>
             </div>
           }
         </div>
