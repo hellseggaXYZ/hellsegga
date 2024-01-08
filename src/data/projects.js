@@ -3,6 +3,7 @@ import PlatzLogo from "@/svg/platz"
 import Zero55Logo from "@/svg/055"
 import LinearaLogo from "@/svg/lineara"
 import TomoLogo from "@/svg/tomo"
+import { urlMap } from "./people"
 
 export const projects = [
   {
@@ -14,15 +15,15 @@ export const projects = [
     collaborators: [
       {
         name: 'SHAOBO.Z',
-        url: 'https://boboland.xyz',
+        url: urlMap['SHAOBO.Z']
       },
       {
         name: 'PEIYUAN.L',
-        url: 'https://www.liaopeiyuan.com/',
+        url: urlMap['PEIYUAN.L']
       },
       {
         name: 'MARCO.W',
-        url: 'https://www.marcowang.xyz/',
+        url: urlMap['MARCO.W']
       },
     ]
   },
@@ -35,19 +36,19 @@ export const projects = [
     collaborators: [
       {
         name: 'MARCO.W',
-        url: 'https://www.marcowang.xyz/',
+        url: urlMap['MARCO.W']
       },
       {
         name: 'SHAOBO.Z',
-        url: 'https://boboland.xyz',
+        url: urlMap['SHAOBO.Z']
       },
       {
         name: 'MARCO.Y',
-        url: 'https://www.linkedin.com/in/marco-yu-ba21661ab/',
+        url: urlMap['MARCO.Y']
       },
       {
         name: 'DALU.L',
-        url: 'https://www.daluliu.com/',
+        url: urlMap['DALU.L']
       }
     ]
   },
@@ -60,11 +61,11 @@ export const projects = [
     collaborators: [
       {
         name: 'LILITH.Y',
-        url: 'https://lilithyu.com/',
+        url: urlMap['LILITH.Y']
       },
       {
         name: 'MARCO.W',
-        url: 'https://www.marcowang.xyz/',
+        url: urlMap['MARCO.W']
       },
     ]
   },
@@ -77,11 +78,11 @@ export const projects = [
     collaborators: [
       {
         name: 'PEIYUAN.L',
-        url: 'https://www.liaopeiyuan.com/',
+        url: urlMap['PEIYUAN.L']
       },
       {
         name: 'SHAOBO.Z',
-        url: 'https://boboland.xyz',
+        url:  urlMap['SHAOBO.Z']
       },
     ]
   },
@@ -95,15 +96,15 @@ export const projects = [
     collaborators: [
       {
         name: 'SHAOBO.Z',
-        url: 'https://boboland.xyz',
+        url: urlMap['SHAOBO.Z']
       },
       {
         name: 'PEIYUAN.L',
-        url: 'https://www.liaopeiyuan.com/',
+        url: urlMap['PEIYUAN.L'],
       },
       {
         name: 'MARCO.Y',
-        url: 'https://www.linkedin.com/in/marco-yu-ba21661ab/',
+        url: urlMap['MARCO.Y'],
       },
     ]
   },

@@ -20,7 +20,8 @@
   font-size: 20px;
   font-weight: 300;
   color: #999;
-  min-width: 80px;
+  min-width: 105px;
+  text-align: center;
 }
 
 .text:hover {

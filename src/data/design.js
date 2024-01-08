@@ -3,6 +3,7 @@ import LlmIde from "@/components/media/LlmIde"
 import Igloo from "@/components/media/Igloo"
 import BasicComponent from "@/components/media/BasicComponent"
 import Skip from "@/components/media/Skip"
+import { urlMap } from "./people"
 
 export const designs = [
   {
@@ -14,11 +15,11 @@ export const designs = [
     collaborators: [
       {
         name: 'SHAOBO.Z',
-        url: 'https://boboland.xyz',
+        url: urlMap['SHAOBO.Z']
       },
       {
         name: 'CHRIS.C',
-        url: 'https://hanzhangcao.com/',
+        url: urlMap['CHRIS.C']
       },
     ]
   },
@@ -31,10 +32,11 @@ export const designs = [
     collaborators: [
       {
         name: 'SHAOBO.Z',
-        url: 'https://boboland.xyz',
+        url: urlMap['SHAOBO.Z']
       },
       {
         name: 'SHEERY.X',
+        url: urlMap['SHEERY.X']
       },
     ]
   },
@@ -47,10 +49,11 @@ export const designs = [
     collaborators: [
       {
         name: 'SHAOBO.Z',
-        url: 'https://boboland.xyz',
+        url: urlMap['SHAOBO.Z']
       },
       {
         name: 'EMMIE.F',
+        url: urlMap['EMMIE.F']
       },
     ]
   },
@@ -63,10 +66,11 @@ export const designs = [
     collaborators: [
       {
         name: 'SHAOBO.Z',
-        url: 'https://boboland.xyz',
+        url: urlMap['SHAOBO.Z']
       },
       {
         name: 'SHEERY.X',
+        url: urlMap['SHEERY.X']
       },
     ]
   },
@@ -79,10 +83,11 @@ export const designs = [
     collaborators: [
       {
         name: 'SHAOBO.Z',
-        url: 'https://boboland.xyz',
+        url: urlMap['SHAOBO.Z']
       },
       {
         name: 'SHEERY.X',
+        url: urlMap['SHEERY.X']
       },
     ]
   },

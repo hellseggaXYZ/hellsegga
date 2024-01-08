@@ -1,9 +1,10 @@
 .main {
   position: relative;
   padding: 3em;
-  padding-top: 6em;
+  /* padding-top: 6em; */
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
