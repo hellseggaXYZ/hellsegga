@@ -139,7 +139,7 @@
   }
 
   .description {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     margin-top: 27px;
     color: #000;
@@ -153,6 +153,13 @@
     font-style: italic;
     color: #666;
     width: 80%;
+  }
+
+  
+  .footer .collaborators {
+    font-size: 11px;
+    gap: 10px;
+    color: #999;
   }
 
 }
