@@ -1,7 +1,7 @@
-import LourLogo from "@/svg/lour"
-import PlatzLogo from "@/svg/platz"
-import Zero55Logo from "@/svg/055"
-import LinearaLogo from "@/svg/lineara"
+import Lour from "@/components/media/Lour"
+import Platz from "@/components/media/Platz"
+import Zero55 from "@/components/media/Zero55"
+import Lineara from "@/components/media/Lineara"
 import TomoLogo from "@/svg/tomo"
 import { urlMap } from "./people"
 
@@ -11,7 +11,7 @@ export const projects = [
     date: 'Summer, 2023',
     description: 'Color palette generator based on historic art movements, powered by a generative model trained on the artbench dataset.',
     url: 'https://lour.ink',
-    image: (<LourLogo />),
+    image: (<Lour />),
     collaborators: [
       {
         name: 'SHAOBO.Z',
@@ -32,7 +32,7 @@ export const projects = [
     date: 'Spring, 2023',
     description: 'An open source infinite canvas based website template.',
     url: 'https://www.platz.ooo/',
-    image: (<PlatzLogo />),
+    image: (<Platz />),
     collaborators: [
       {
         name: 'MARCO.W',
@@ -73,7 +73,7 @@ export const projects = [
     name: 'linear a',
     date: 'Fall, 2022',
     description: 'Experimental attempt at running ml algorithm in zero-knowledge proofs.',
-    image: (<LinearaLogo />),
+    image: (<Lineara />),
     url: 'https://zk-ml.xyz/',
     collaborators: [
       {
@@ -90,7 +90,7 @@ export const projects = [
     name: '055',
     date: 'Summer, 2022',
     description: 'A collection of AI generated NFTs that only shows its original content to those that have access to its secret. Only the owner have access to the original image off-chain, with only a thumbnail version available on-chain.',
-    image: (<Zero55Logo />),
+    image: (<Zero55 />),
     url: 'https://youtu.be/1_QF4B1ITV4',
     note: 'This project is deprecated because the metamask account that was used to deploy the contract was compromised.',
     collaborators: [
