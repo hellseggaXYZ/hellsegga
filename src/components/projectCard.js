@@ -1,14 +1,27 @@
+'use client'
+import { useState } from 'react';
+
 import styles from './projectCard.module.css'
 import Link from 'next/link';
 import CollaboratorButton from './CollaboratorButton';
 
 export default function ProjectCard({ project }) {
-  const { name, date, description, note, url, image, collaborators } = project;
+  const { name, date, description, note, url, logo, hoverLogo, collaborators } = project;
+
+  const [showHover, setShowHover] = useState(false);
+
 
   return (
-    <Link href={url} className={styles.card} target='_blank' rel='noopener noreferrer'>
+    <Link href={url} className={styles.card} target='_blank' rel='noopener noreferrer' onMouseEnter={() => setShowHover(true)} onMouseLeave={() => setShowHover(false)}>
       <div className={styles.image}>
-        {image}
+      <div className={hoverLogo && showHover ? styles.hide : ''}>
+        {logo}
+      </div>
+      {hoverLogo && 
+        <div className={styles.imageHover}>
+          {showHover && hoverLogo}
+        </div>
+      }
       </div>
       <div className={styles.projectInfo}>
         <div className={styles.text}>

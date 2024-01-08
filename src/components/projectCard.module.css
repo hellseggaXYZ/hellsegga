@@ -25,6 +25,18 @@
   width: fit-content;
   min-width: 120px;
   padding: 10px;
+  position: relative;
+}
+
+.image .hide {
+  display: none;
+
+}
+
+.imageHover {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .projectInfo {

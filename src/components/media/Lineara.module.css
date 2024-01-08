@@ -1,4 +1,4 @@
-.image:hover svg {
+.image svg {
   animation: spin 5s linear infinite;
 }
 
