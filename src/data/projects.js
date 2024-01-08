@@ -1,3 +1,4 @@
+import Bohaus from "@/components/media/Bohaus"
 import Lour from "@/components/media/Lour"
 import Platz from "@/components/media/Platz"
 import Zero55 from "@/components/media/Zero55"
@@ -6,6 +7,23 @@ import TomoLogo from "@/svg/tomo"
 import { urlMap } from "./people"
 
 export const projects = [
+  {
+    name: 'BOHAUS',
+    date: 'Fall, 2023',
+    description: 'Furniture Fun times in the Fall. Fantastic Furniture for the Future.',
+    url: 'https://lour.ink',
+    image: (<Bohaus />),
+    collaborators: [
+      {
+        name: 'SHAOBO.Z',
+        url: urlMap['SHAOBO.Z']
+      },
+      {
+        name: 'LUCAS.I',
+        url: urlMap['LUCAS.I']
+      },
+    ]
+  },
   {
     name: 'LOUR',
     date: 'Summer, 2023',
