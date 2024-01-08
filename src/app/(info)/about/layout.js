@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Hellsegga - About',
+  title: 'Hellsegga - People',
 }
 
 export default function Layout({ children }) {
