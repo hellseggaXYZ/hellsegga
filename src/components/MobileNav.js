@@ -13,6 +13,7 @@ export default function MobileNav() {
 
   return (
     <main className={styles.main}>
+      { isOpen && <div className={styles.overlay} /> }
       <div className={styles.icon} onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <XIcon /> : <BarsIcon />}
       </div>
