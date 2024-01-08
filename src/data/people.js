@@ -6,37 +6,37 @@ export const people = [
   {
     name: 'SHAOBO.Z',
     url: 'https://boboland.xyz',
-    role: ['design', 'engineer'],
+    role: ['design', 'engineering'],
     projects: [],
   },
   {
     name: 'PEIYUAN.L',
     url: 'https://www.liaopeiyuan.com/',
-    role: ['engineer'],
+    role: ['engineering'],
     projects: [],
   },
   {
     name: 'MARCO.W',
     url: 'https://www.marcowang.xyz/',
-    role: ['engineer'],
+    role: ['engineering'],
     projects: [],
   },
   {
     name: 'MARCO.Y',
     url: 'https://www.linkedin.com/in/marco-yu-ba21661ab/',
-    role: ['engineer'],
+    role: ['engineering'],
     projects: [],
   },
   {
     name: 'LILITH.Y',
     url: 'https://lilithyu.com/',
-    role: ['design', 'engineer'],
+    role: ['design', 'engineering'],
     projects: [],
   },
   {
     name: 'DALU.L',
     url: 'https://www.daluliu.com/',
-    role: ['engineer'],
+    role: ['engineering'],
     projects: [],
   },
   {
@@ -48,7 +48,7 @@ export const people = [
   {
     name: 'LUCAS.I',
     url: 'https://lucasiezzi.com/',
-    role: ['design', 'engineer'],
+    role: ['design', 'engineering'],
     projects: [],
   },
   {
