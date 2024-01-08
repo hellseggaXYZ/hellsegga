@@ -10,7 +10,7 @@ export const designs = [
     name: 'History of computing',
     category: 'animation',
     media: (<HistOfComp />),
-    color: '#000000',
+    color: '#666666',
     url: 'https://www.figma.com/community/file/1318302567221633887/history-of-computing',
     collaborators: [
       {
@@ -27,7 +27,7 @@ export const designs = [
     name: 'LLM Powered ide',
     category: 'animated components',
     media: (<LlmIde />),
-    color: '#000000',
+    color: '#666666',
     url: 'https://www.figma.com/community/file/1311725605282104466/code-animations-for-a-llm-powered-ide',
     collaborators: [
       {
@@ -44,7 +44,7 @@ export const designs = [
     name: 'Basic Components',
     category: 'component library',
     media: (<BasicComponent />),
-    color: '#999999',
+    color: '#666666',
     url: 'https://www.figma.com/community/file/1311566269817082686/components-a-basic-component-library-for-your-software',
     collaborators: [
       {
@@ -61,7 +61,7 @@ export const designs = [
     name: 'igloo',
     category: 'user interface',
     media: (<Igloo />),
-    color: '#999999',
+    color: '#666666',
     url: 'https://www.figma.com/community/file/1303871759301894413/igloo-an-organic-non-overwhelming-interface-for-your-relationships',
     collaborators: [
       {
@@ -78,7 +78,7 @@ export const designs = [
     name: 'skip',
     category: 'user interface',
     media: (<Skip />),
-    color: '#999999',
+    color: '#666666',
     url: 'https://www.figma.com/community/file/1298100984070394658/skip-an-ai-powered-collaborative-workspace',
     collaborators: [
       {

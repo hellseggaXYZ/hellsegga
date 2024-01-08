@@ -55,7 +55,7 @@ export const projects = [
   {
     name: 'TOMO',
     date: 'Spring, 2023',
-    description: 'TOMO is a collection of AI powered toys created with the aim of researching how AI can help build interactions that inspire curiosity, creativity, and compassion. This site is for testing the software, which will eventually live inside physical toys and exhibited at an in-person exhibition. Thank you for trying it out and please give some feedback!',
+    description: 'A collection of AI powered toys created with the aim of researching how AI can help build interactions that inspire curiosity, creativity, and compassion.',
     image: (<TomoLogo />),
     url: 'https://tomo-git-mw-new-controls-yulilith.vercel.app/',
     collaborators: [
