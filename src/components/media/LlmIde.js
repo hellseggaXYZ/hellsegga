@@ -14,7 +14,7 @@ export default function LlmIde() {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      borderRadius: '50px',
+      borderRadius: '20px',
     }}>
       <video 
         autoPlay 

@@ -3,7 +3,7 @@ import MobileNav from "@/components/MobileNav"
 
 export default function Layout({ children }) {
   return (
-    <div style={{position: 'relative'}}>
+    <div>
       <Navbar />
       <MobileNav />
       {children}
