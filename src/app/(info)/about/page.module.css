@@ -26,3 +26,16 @@
   color: #aaa;
   letter-spacing: -0.05em;
 }
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 30px;
+    justify-content: flex-start;
+    align-items: start;
+  }
+
+  .word {
+    left: 0;
+  }
+  
+}

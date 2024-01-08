@@ -61,3 +61,21 @@
   width: 200px;
   text-align: end;
 }
+
+@media screen and (max-width: 768px) {
+  .name {
+    left: 0; 
+  }
+
+  .name:hover + .projects {
+    display: none;
+  }
+
+  .infoContainer {
+    display: block; /* Hide by default */
+  }
+  
+  .projects {
+    display: none;
+  }
+}
