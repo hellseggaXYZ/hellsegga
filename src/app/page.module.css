@@ -32,11 +32,16 @@
 
 
 /* Mobile */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .main {
     padding: 0px 5vw;
     gap: 5em;
   }
+
+  .logo svg:hover {
+    box-shadow: inset 0 0 0 3px #000; /* Change color on hover */
+  }
+  
 }
 
 /* Tablet and Smaller Desktop */
