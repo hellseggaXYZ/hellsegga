@@ -119,6 +119,7 @@
     transition: all 0.1s ease-in-out;
     justify-content: flex-start;
     gap: 40px; 
+    border-radius: 15px;
   }
 
   .image {
@@ -134,7 +135,7 @@
 
   .projectInfo {
     min-height: 150px;
-    flex-grow: 2;
+    flex: 2;
   }
 
   .description {
@@ -142,7 +143,7 @@
     font-weight: 400;
     margin-top: 27px;
     color: #000;
-    width: 350px;
+    width: 80%;
   }
 
   .note {
@@ -151,7 +152,7 @@
     margin-top: 20px;
     font-style: italic;
     color: #666;
-    width: 350px;
+    width: 80%;
   }
 
 }
