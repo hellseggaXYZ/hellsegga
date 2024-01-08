@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import styles from './projectCard.module.css'
 import Link from 'next/link';
@@ -10,9 +10,18 @@ export default function ProjectCard({ project }) {
 
   const [showHover, setShowHover] = useState(false);
 
+  // check if screen is mobile. if so hide hover logo
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      setIsMobile(true);
+    }
+  }, []);
+  
 
   return (
-    <Link href={url} className={styles.card} target='_blank' rel='noopener noreferrer' onMouseEnter={() => setShowHover(true)} onMouseLeave={() => setShowHover(false)}>
+    <Link href={url} className={styles.card} target='_blank' rel='noopener noreferrer' onMouseEnter={() => setShowHover(!isMobile && true)} onMouseLeave={() => setShowHover(false)}>
       <div className={styles.image}>
       <div className={hoverLogo && showHover ? styles.hide : ''}>
         {logo}
