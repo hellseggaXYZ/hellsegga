@@ -10,8 +10,8 @@ export const projects = [
   {
     name: 'BOHAUS',
     date: 'Fall, 2023',
-    description: 'Furniture Fun times in the Fall. Fantastic Furniture for the Future.',
-    url: 'https://lour.ink',
+    description: 'An open sourced 3D printing furniture project.',
+    url: 'https://bohaus.design',
     image: (<Bohaus />),
     collaborators: [
       {
@@ -21,6 +21,10 @@ export const projects = [
       {
         name: 'LUCAS.I',
         url: urlMap['LUCAS.I']
+      },
+      {
+        name: 'CHRIS.C',
+        url: urlMap['CHRIS.C']
       },
     ]
   },
