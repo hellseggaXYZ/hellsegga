@@ -53,11 +53,13 @@ export const people = [
   },
   {
     name: 'SHEERY.X',
+    url: 'https://www.linkedin.com/in/sherry-yx/',
     role: ['design'],
     projects: [],
   },
   {
     name: 'EMMIE.F',
+    url: 'https://www.linkedin.com/in/emersonfister/',
     role: ['design'],
     projects: [],
   }
