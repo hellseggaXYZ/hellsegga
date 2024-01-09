@@ -1,0 +1,9 @@
+.llm {
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .llm {
+    border-radius: 20px;
+  }
+}

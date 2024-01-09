@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './LlmIde.module.css';
 
 export default function LlmIde() {
   const aspectRatioPadding = (650 / 950) * 100; // Aspect ratio calculation
@@ -14,8 +15,9 @@ export default function LlmIde() {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      borderRadius: '20px',
-    }}>
+    }}
+    className={styles.llm}
+    > 
       <video 
         autoPlay 
         loop 
