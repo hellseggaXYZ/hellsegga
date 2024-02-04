@@ -41,7 +41,7 @@ export const people = [
   },
   {
     name: 'CHRIS.C',
-    url: 'https://hanzhangcao.com/',
+    url: 'https://crscao.com/',
     role: ['design'],
     projects: [],
   },
