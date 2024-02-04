@@ -35,8 +35,8 @@ export const designs = [
         url: urlMap['SHAOBO.Z']
       },
       {
-        name: 'SHEERY.X',
-        url: urlMap['SHEERY.X']
+        name: 'SHERRY.X',
+        url: urlMap['SHERRY.X']
       },
     ]
   },
@@ -69,8 +69,8 @@ export const designs = [
         url: urlMap['SHAOBO.Z']
       },
       {
-        name: 'SHEERY.X',
-        url: urlMap['SHEERY.X']
+        name: 'SHERRY.X',
+        url: urlMap['SHERRY.X']
       },
     ]
   },
@@ -86,8 +86,8 @@ export const designs = [
         url: urlMap['SHAOBO.Z']
       },
       {
-        name: 'SHEERY.X',
-        url: urlMap['SHEERY.X']
+        name: 'SHERRY.X',
+        url: urlMap['SHERRY.X']
       },
     ]
   },

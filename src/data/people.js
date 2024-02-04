@@ -52,7 +52,7 @@ export const people = [
     projects: [],
   },
   {
-    name: 'SHEERY.X',
+    name: 'SHERRY.X',
     url: 'https://www.linkedin.com/in/sherry-yx/',
     role: ['design'],
     projects: [],
